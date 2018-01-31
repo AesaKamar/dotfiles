@@ -1,0 +1,7 @@
+# User Environment specific
+.ensime
+.ensime*/
+*.DS_Store*
+.DS_Store
+local.sbt
+.env

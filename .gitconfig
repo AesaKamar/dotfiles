@@ -1,0 +1,22 @@
+[user]
+	name = AesaKamar
+	email = aesa.kamar@gmail.com
+[core]
+	excludesfile = /Users/aesa/.gitignore
+	editor = code --wait
+[push]
+	default = current
+[diff]
+    tool = default-difftool
+[difftool "default-difftool"]
+    cmd = code --wait --diff $LOCAL $REMOTE
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[commit]
+	template = /Users/aesa/.stCommitMsg
+[alias]
+	lgg = log --graph --decorate --all --oneline
