@@ -38,3 +38,7 @@ export PS1="\u@\h \[\033[32m\]\w\[\033[33m\]\$(parse_git_branch)\[\033[00m\] $ "
 
 # .NET Mono F# stuff
 export PATH=$PATH:/Library/Frameworks/Mono.framework/Versions/Current/bin/alias config='/usr/bin/git --git-dir=/Users/aesa/.cfg/ --work-tree=/Users/aesa'
+
+
+# Configuration backup helper for dotfiles
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
