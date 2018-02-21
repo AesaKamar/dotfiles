@@ -4,7 +4,11 @@
 [core]
 	excludesfile = /Users/aesa/.gitignore
 	editor = code --wait
+[branch]
+    autoSetupRebase = always
 [push]
+	default = current
+[oull]
 	default = current
 [diff]
     tool = default-difftool
