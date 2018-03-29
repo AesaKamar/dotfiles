@@ -38,7 +38,7 @@ function fish_prompt
   set -l blue (set_color blue)
   set -l limegreen (set_color 87ff00)
   set -l purple (set_color af5fff)
- 
+
   # Configure __fish_git_prompt
   set -g __fish_git_prompt_char_stateseparator ' '
   set -g __fish_git_prompt_color 5fdfff
@@ -48,11 +48,11 @@ function fish_prompt
   set -g __fish_git_prompt_showdirtystate true
   set -g __fish_git_prompt_showuntrackedfiles true
   set -g __fish_git_prompt_showstashstate true
-  set -g __fish_git_prompt_show_informative_status true 
- 
+  set -g __fish_git_prompt_show_informative_status true
+
   # Line 1
   echo -n $white' ─'$hotpink$USER$white' at '$orange$__fish_prompt_hostname$white' in '
-  echo 
+  echo
   echo -n $normal' ⎸ '$limegreen(pwd)
   echo
   echo -n $normal' ⎸'$turquoise
@@ -66,5 +66,3 @@ function fish_prompt
   end
   echo -n $white$__fish_prompt_char $normal
 end
-
-
