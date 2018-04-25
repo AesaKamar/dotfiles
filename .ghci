@@ -1,3 +1,3 @@
-:def pretty \_ -> return ("import Text.Show.Pretty (pPrint, ppShow)\n import Language.Haskell.HsColour\n import Language.Haskell.HsColour.Colourise\n let colorPrint = putStrLn . hscolour TTY defaultColourPrefs False False \"\" False . ppShow\n :set -interactive-print colorPrint\n")
+:def pretty \_ -> return ("import Text.Show.Pretty (pPrint, ppShow)\n import Language.Haskell.HsColour\n import Language.Haskell.HsColour.Colourise\n let colorPrint = putStrLn . hscolour TTY defaultColourPrefs False False \"\" False . ppShow\n :set -interactive-print colorPrint")
 
 :def no-pretty \_ -> return (":set -interactive-print System.IO.print")

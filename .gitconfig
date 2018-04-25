@@ -3,7 +3,7 @@
 	email = aesa.kamar@gmail.com
 [core]
 	excludesfile = /Users/aesa/.gitignore
-	editor = code --wait
+	editor = atom --wait
 [branch]
     autoSetupRebase = always
 [push]

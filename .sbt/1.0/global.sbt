@@ -1,6 +1,6 @@
 cancelable in Global := true
 
-// import sbt.errorssummary.Plugin.autoImport._
+import sbt.errorssummary.Plugin.autoImport._
 
 
 
