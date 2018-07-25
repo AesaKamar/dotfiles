@@ -7,3 +7,6 @@ local.sbt
 .env
 .cfg
 .Trash/
+.sbt/preloaded/**
+.sbt/boot/**
+.sbt/**/target/**
