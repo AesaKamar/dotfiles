@@ -26,6 +26,7 @@ if [ -f ~/.git-completion.bash ]; then
   . ~/.git-completion.bash
 fi
 
+export PATH=~/.local/bin:$PATH
 
 # Docker stuff
 alias dockerkill='docker rm -f $(docker ps -a -q)'
