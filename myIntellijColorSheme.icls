@@ -1,0 +1,37 @@
+<scheme name="Darcula" version="142" parent_scheme="Darcula">
+  <metaInfo>
+    <property name="created">2018-10-10T10:48:04</property>
+    <property name="ide">Idea</property>
+    <property name="ideVersion">2018.2.4.0.0</property>
+    <property name="modified">2018-10-10T10:48:35</property>
+    <property name="originalScheme">_@user_Darcula</property>
+  </metaInfo>
+  <attributes>
+    <option name="DEFAULT_LOCAL_VARIABLE">
+      <value>
+        <option name="FOREGROUND" value="7cadc6" />
+      </value>
+    </option>
+    <option name="DEFAULT_PARAMETER">
+      <value>
+        <option name="FOREGROUND" value="88c69b" />
+      </value>
+    </option>
+    <option name="Scala Class method call">
+      <value>
+        <option name="FOREGROUND" value="d1cfbb" />
+      </value>
+    </option>
+    <option name="Scala For statement value">
+      <value>
+        <option name="FOREGROUND" value="c694af" />
+      </value>
+    </option>
+    <option name="Scala Object method call">
+      <value>
+        <option name="FOREGROUND" value="d1cfbb" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+  </attributes>
+</scheme>
