@@ -21,3 +21,17 @@ alias chrome='open -a Google\ Chrome --args --disable-web-security'
 
 #kubernetes
 kubectl config use-context dorp > /dev/null
+
+#wget everything
+function wgetAll
+  command wget \
+    --recursive \
+    --page-requisites \
+    --html-extension \
+    --convert-links \
+    --restrict-file-names=windows \
+    # capture the subdomain and the domain of the url
+    --domains (echo $argv | sed -e 's|^[^/]*//||' -e 's|/.*$||') \
+    --no-parent \
+      $argv
+end
