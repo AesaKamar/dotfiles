@@ -1,12 +1,22 @@
-<scheme name="Darcula" version="142" parent_scheme="Darcula">
+<scheme name="Darcula copy" version="142" parent_scheme="Darcula">
   <metaInfo>
-    <property name="created">2018-10-10T10:48:04</property>
+    <property name="created">2018-11-28T10:50:28</property>
     <property name="ide">Idea</property>
-    <property name="ideVersion">2018.2.4.0.0</property>
-    <property name="modified">2018-10-10T10:48:35</property>
-    <property name="originalScheme">_@user_Darcula</property>
+    <property name="ideVersion">2018.3.0.0</property>
+    <property name="modified">2018-11-28T10:50:36</property>
+    <property name="originalScheme">Darcula copy</property>
   </metaInfo>
   <attributes>
+    <option name="DEFAULT_CLASS_NAME">
+      <value>
+        <option name="FOREGROUND" value="d0daeb" />
+      </value>
+    </option>
+    <option name="DEFAULT_CLASS_REFERENCE">
+      <value>
+        <option name="FOREGROUND" value="d0daeb" />
+      </value>
+    </option>
     <option name="DEFAULT_LOCAL_VARIABLE">
       <value>
         <option name="FOREGROUND" value="7cadc6" />
@@ -15,6 +25,31 @@
     <option name="DEFAULT_PARAMETER">
       <value>
         <option name="FOREGROUND" value="88c69b" />
+      </value>
+    </option>
+    <option name="METHOD_CALL_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="d0daeb" />
+      </value>
+    </option>
+    <option name="RAINBOW_COLOR0">
+      <value>
+        <option name="FOREGROUND" value="1a9d72" />
+      </value>
+    </option>
+    <option name="RAINBOW_COLOR1">
+      <value>
+        <option name="FOREGROUND" value="50be86" />
+      </value>
+    </option>
+    <option name="RAINBOW_COLOR3">
+      <value>
+        <option name="FOREGROUND" value="306e59" />
+      </value>
+    </option>
+    <option name="RAINBOW_COLOR4">
+      <value>
+        <option name="FOREGROUND" value="60a882" />
       </value>
     </option>
     <option name="Scala Class method call">
@@ -27,10 +62,45 @@
         <option name="FOREGROUND" value="c694af" />
       </value>
     </option>
+    <option name="Scala Object">
+      <value>
+        <option name="FOREGROUND" value="9fc660" />
+      </value>
+    </option>
     <option name="Scala Object method call">
       <value>
         <option name="FOREGROUND" value="d1cfbb" />
         <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="Scala Pattern value">
+      <value>
+        <option name="FOREGROUND" value="a3c69e" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
+    <option name="Scala Trait">
+      <value>
+        <option name="FOREGROUND" value="62c5c6" />
+      </value>
+    </option>
+    <option name="Scala Type Alias">
+      <value>
+        <option name="FOREGROUND" value="2c8f69" />
+      </value>
+    </option>
+    <option name="TEXT">
+      <value>
+        <option name="FOREGROUND" value="adbdca" />
+        <option name="BACKGROUND" value="2b2b2b" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
+    <option name="TODO_DEFAULT_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="c0b200" />
+        <option name="FONT_TYPE" value="2" />
+        <option name="ERROR_STRIPE_COLOR" value="977ab" />
       </value>
     </option>
   </attributes>
