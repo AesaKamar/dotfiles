@@ -43,3 +43,4 @@ export PATH=$PATH:/Library/Frameworks/Mono.framework/Versions/Current/bin/alias 
 
 # Configuration backup helper for dotfiles
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
+if [ -e /Users/aesa/.nix-profile/etc/profile.d/nix.sh ]; then . /Users/aesa/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer

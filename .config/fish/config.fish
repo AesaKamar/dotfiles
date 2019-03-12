@@ -14,6 +14,8 @@ if test -e '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh'
   fenv source '/nix/var/nix/profiles/default/etc/profile.d/nix-daemon.sh'
 end
 set PATH /nix/var/nix/profiles/default/bin/ $PATH
+
+eval (bash -c "source ~/.nix-profile/etc/profile.d/nix.sh; echo export NIX_PATH=\"\$NIX_PATH\"; echo export PATH=\"\$PATH\"; echo export NIX_SSL_CERT_FILE=\"\$NIX_SSL_CERT_FILE\"")
 # End Nix
 
 

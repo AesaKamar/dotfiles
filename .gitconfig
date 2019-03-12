@@ -24,6 +24,7 @@
 	template = /Users/aesa/.stCommitMsg
 [alias]
 	lgg = log --graph --decorate --all --oneline
+	quick-stats = ! /usr/local/bin/git-quick-stats
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
