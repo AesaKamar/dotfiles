@@ -55,3 +55,8 @@ import sbt.errorssummary.Plugin.autoImport._
 //   "-Ywarn-unused:imports",
 //   "-Xfatal-warnings"
 // )))
+
+commands += Command.command("cls") { state =>
+  print("\033c")
+  state
+}
