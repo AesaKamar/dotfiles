@@ -1,9 +1,9 @@
 [user]
 	name = AesaKamar
-	email = aesa.kamar@gmail.com
+	email = Aesa.Kamar@gmail.com
 [core]
 	excludesfile = /Users/aesa/.gitignore
-	editor = atom --wait
+	editor = micro
 [branch]
     autoSetupRebase = always
 [push]
@@ -25,8 +25,12 @@
 [alias]
 	lgg = log --graph --decorate --all --oneline
 	quick-stats = ! /usr/local/bin/git-quick-stats
+	diffchar = diff --word-diff=color --word-diff-regex=.
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
 	process = git-lfs filter-process
 	required = true
+
+[github]
+  token = 1a8fda478c7004a49c9367f3a73dc62a8bc73286

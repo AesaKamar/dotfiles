@@ -3,3 +3,4 @@ export CLICOLOR=1
 export LSCOLORS=ExFxBxDxCxegedabagacad
 alias ls='ls -GFh'
 
+export MFA_ARN="arn:aws:iam::617208391173:mfa/aesa"

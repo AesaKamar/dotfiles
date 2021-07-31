@@ -3,10 +3,13 @@
 # Configuration backup helper for dotfiles
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 
-
+# Don't forget to set npm to install packages in home
+## > `mkdir ~/.npm-global` `npm config set prefix '~/.npm-global'`
 set PATH ~/.npm-global/bin $PATH
+
 set PATH ~/.nix-profile/bin/ $PATH
 set PATH ~/.local/bin $PATH
+set PATH $GOPATH/bin $PATH
 
 
 # Nix
@@ -22,7 +25,7 @@ eval (bash -c "source ~/.nix-profile/etc/profile.d/nix.sh; echo export NIX_PATH=
 alias chrome='open -a Google\ Chrome --args --disable-web-security'
 
 #kubernetes
-kubectl config use-context dorp > /dev/null
+#kubectl config use-context dorp > /dev/null
 
 #wget everything
 function wgetAll
@@ -38,5 +41,52 @@ function wgetAll
       $argv
 end
 
+# Mac notify callback
+function notify 
+    osascript -e 'display notification "" with title "Done"'
+end
+
 #SBT
-export SBT_OPTS="-Xmx2G -XX:+UseConcMarkSweepGC -XX:+CMSClassUnloadingEnabled -XX:MaxPermSize=2G -Xss2M  -Duser.timezone=EST"
+export SBT_OPTS="-Xmx4G -XX:+UseConcMarkSweepGC -XX:+CMSClassUnloadingEnabled -XX:MaxPermSize=4G -Xss4M  -Duser.timezone=EST"
+
+# Better tree with .gitignore
+function treegit
+  tree --prune -I (cat .gitignore ~/.gitignore | \
+  egrep -v "^#.*\$|^[[:space:]]*\$" | \
+  tr "\\n" "|")
+end
+
+#Custom keybindings
+bind \cw backward-kill-bigword
+
+
+## Source the default profile
+# ==============================================================================
+fenv source ~/.profile
+
+
+## EVEN FINANCIAL SPECIFIC
+# ==============================================================================
+
+set PATH ~/Code/EVENFinancial/even-cli/bin $PATH
+
+set PATH ~/sem/bin $PATH
+
+#Python LOCAL
+set PATH ~/Library/Python/2.7/bin/ $PATH
+set PATH /Library/Frameworks/Python.framework/Versions/3.7/lib/python3.7/site-packages $PATH
+
+
+#Node JS
+export NODE_OPTIONS="--max_old_space_size=4096"
+
+set PATH ~/Code/misc/Workbench-Build125.4 $PATH
+
+
+# Graal 
+set PATH /Library/Java/JavaVirtualMachines/graalvm-ce-java11-20.2.0/Contents/Home/bin $PATH
+
+# Coursier 
+#set PATH "/Users/aesakamar/Library/Application\ Support/Coursier/bin" $PATH
+
+set PATH ~/flutter/bin $PATH

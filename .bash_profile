@@ -17,6 +17,7 @@ PATH="/Library/Frameworks/Python.framework/Versions/3.5/bin:${PATH}"
 export PATH
 export PATH=~/Library/Python/2.7/bin/:$PATH
 
+
 # Setting up Conscript, a sbt command line util
 export CONSCRIPT_HOME="$HOME/.conscript"
 export CONSCRIPT_OPTS="-XX:MaxPermSize=512M -Dfile.encoding=UTF-8"
@@ -44,3 +45,4 @@ export PATH=$PATH:/Library/Frameworks/Mono.framework/Versions/Current/bin/alias 
 # Configuration backup helper for dotfiles
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 if [ -e /Users/aesa/.nix-profile/etc/profile.d/nix.sh ]; then . /Users/aesa/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
+if [ -e /Users/aesakamar/.nix-profile/etc/profile.d/nix.sh ]; then . /Users/aesakamar/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer

@@ -51,7 +51,7 @@ function fish_prompt
   set -g __fish_git_prompt_show_informative_status true
 
   # Line 1
-  echo -n $white' ─'$hotpink$USER$white' at '$orange$__fish_prompt_hostname$white' in '
+  echo -n $white' ─'$hotpink$USER$white' at '$purple(date -u)$white' in '
   echo
   echo -n $normal' ⎸ '$limegreen(pwd)
   echo
