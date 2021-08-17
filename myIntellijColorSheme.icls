@@ -1,12 +1,40 @@
 <scheme name="Darcula copy" version="142" parent_scheme="Darcula">
+  <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="created">2018-11-28T10:50:28</property>
+    <property name="created">2021-08-17T14:38:07</property>
     <property name="ide">Idea</property>
-    <property name="ideVersion">2018.3.0.0</property>
-    <property name="modified">2018-11-28T10:50:36</property>
+    <property name="ideVersion">2021.1.3.0.0</property>
+    <property name="modified">2021-08-17T14:38:50</property>
     <property name="originalScheme">Darcula copy</property>
   </metaInfo>
+  <option name="CONSOLE_FONT_NAME" value="Hasklig" />
+  <option name="CONSOLE_LIGATURES" value="true" />
+  <option name="CONSOLE_LINE_SPACING" value="1.0" />
+  <colors>
+    <option name="CONSOLE_BACKGROUND_KEY" value="0" />
+    <option name="GUTTER_BACKGROUND" value="282828" />
+  </colors>
   <attributes>
+    <option name="CONSOLE_BLACK_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="0" />
+      </value>
+    </option>
+    <option name="CONSOLE_GREEN_BRIGHT_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="5af300" />
+      </value>
+    </option>
+    <option name="CONSOLE_GREEN_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="23c000" />
+      </value>
+    </option>
+    <option name="CONSOLE_WHITE_OUTPUT">
+      <value>
+        <option name="FOREGROUND" value="dedede" />
+      </value>
+    </option>
     <option name="DEFAULT_CLASS_NAME">
       <value>
         <option name="FOREGROUND" value="d0daeb" />
@@ -27,9 +55,21 @@
         <option name="FOREGROUND" value="88c69b" />
       </value>
     </option>
+    <option name="DEFAULT_REASSIGNED_LOCAL_VARIABLE" baseAttributes="DEFAULT_LOCAL_VARIABLE" />
+    <option name="Implicit conversion">
+      <value>
+        <option name="EFFECT_COLOR" value="949494" />
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
+    </option>
     <option name="METHOD_CALL_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="d0daeb" />
+      </value>
+    </option>
+    <option name="PY.KEYWORD_ARGUMENT">
+      <value>
+        <option name="FOREGROUND" value="aa8000" />
       </value>
     </option>
     <option name="RAINBOW_COLOR0">
@@ -50,6 +90,13 @@
     <option name="RAINBOW_COLOR4">
       <value>
         <option name="FOREGROUND" value="60a882" />
+      </value>
+    </option>
+    <option name="Scala Block comment">
+      <value>
+        <option name="FOREGROUND" value="808080" />
+        <option name="FONT_TYPE" value="1" />
+        <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
     <option name="Scala Class method call">
@@ -75,7 +122,7 @@
     </option>
     <option name="Scala Pattern value">
       <value>
-        <option name="FOREGROUND" value="a3c69e" />
+        <option name="FOREGROUND" value="c66a62" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -89,10 +136,15 @@
         <option name="FOREGROUND" value="2c8f69" />
       </value>
     </option>
+    <option name="Scala Type parameter">
+      <value>
+        <option name="FOREGROUND" value="ad64be" />
+      </value>
+    </option>
     <option name="TEXT">
       <value>
         <option name="FOREGROUND" value="adbdca" />
-        <option name="BACKGROUND" value="2b2b2b" />
+        <option name="BACKGROUND" value="282828" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
